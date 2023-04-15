@@ -1,5 +1,5 @@
 ---
-title: "Unterstützung und Diskussionen"
+title: "Unterstützung und Diskussioner"
 date: 2021-11-01T18:10:14+01:00
 
 tags: ['Support', 'Diskussion', 'Q&A', 'Ideas', 'Show & Tell']
