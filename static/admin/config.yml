@@ -8,11 +8,11 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, e.g., /admin/collections/blog
-    label: "Inlägg" # Used in the UI
+  - name: "bonanza" # Used in routes, e.g., /admin/collections/blog
+    label: "Bonanza" # Used in the UI
     description: >
-      Allmänna inlägg som inte hamnar i någon särskild kategori - använd helst sparsamt!
-    folder: "content/post" # The path to the folder where the documents are stored
+      Inlägg om Turf Bonanza (egen kategori)
+    folder: "content/bonanza" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
@@ -21,11 +21,89 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publicera", name: "date", widget: "datetime"}
       - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
-  - name: "bonanza" # Used in routes, e.g., /admin/collections/blog
-    label: "Bonanza" # Used in the UI
+  - name: "event" # Used in routes, e.g., /admin/collections/blog
+    label: "Event" # Used in the UI
     description: >
-      Inlägg om Bonanza :)
-    folder: "content/bonanza" # The path to the folder where the documents are stored
+      Inlägg om event (våra och andras - egen kategori)
+    folder: "content/event" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Författare", name: "author", widget: "string"}
+      - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Publicera", name: "date", widget: "datetime"}
+      - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
+      - {label: "Text", name: "body", widget: "markdown"}
+    - name: "foreningen" # Used in routes, e.g., /admin/collections/blog
+    label: "Föreningsinfo" # Used in the UI
+    description: >
+      Inlägg om föreningen, medlemskap, årsmöte och liknande (egen kategori)
+    folder: "content/foreningen" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Författare", name: "author", widget: "string"}
+      - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Publicera", name: "date", widget: "datetime"}
+      - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
+      - {label: "Text", name: "body", widget: "markdown"}
+    - name: "traffar" # Used in routes, e.g., /admin/collections/blog
+    label: "Turfträffar" # Used in the UI
+    description: >
+      Inlägg om turfträffar (våra och andras - egen kategori)
+    folder: "content/traffar" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Författare", name: "author", widget: "string"}
+      - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Publicera", name: "date", widget: "datetime"}
+      - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
+      - {label: "Text", name: "body", widget: "markdown"}
+    - name: "aventyr" # Used in routes, e.g., /admin/collections/blog
+    label: "Turfäventyr" # Used in the UI
+    description: >
+      Inlägg om turfäventyr (våra och andras - egen kategori)
+    folder: "content/aventyr" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Författare", name: "author", widget: "string"}
+      - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Publicera", name: "date", widget: "datetime"}
+      - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
+      - {label: "Text", name: "body", widget: "markdown"}
+    - name: "pokalen" # Used in routes, e.g., /admin/collections/blog
+    label: "Vandringspokalen" # Used in the UI
+    description: >
+      Inlägg om vår vandringspokal (egen kategori)
+    folder: "content/pokalen" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Författare", name: "author", widget: "string"}
+      - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Publicera", name: "date", widget: "datetime"}
+      - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
+      - {label: "Text", name: "body", widget: "markdown"}
+    - name: "vb-klassikern" # Used in routes, e.g., /admin/collections/blog
+    label: "Västerbottens Turf-klassiker" # Used in the UI
+    description: >
+      Inlägg om vår Turf-klassiker (egen kategori)
+    folder: "content/vb-klassikern" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Författare", name: "author", widget: "string"}
+      - {label: "Rubrik", name: "title", widget: "string"}
+      - {label: "Publicera", name: "date", widget: "datetime"}
+      - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
+      - {label: "Text", name: "body", widget: "markdown"}
+  - name: "post" # Used in routes, e.g., /admin/collections/blog
+    label: "Inlägg" # Used in the UI
+    description: >
+      Allmänna inlägg som inte hamnar i någon särskild kategori - använd helst sparsamt!
+    folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
