@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publicera", name: "date", widget: "datetime"}
       - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
-    - name: "foreningen" # Used in routes, e.g., /admin/collections/blog
+  - name: "foreningen" # Used in routes, e.g., /admin/collections/blog
     label: "Föreningsinfo" # Used in the UI
     description: >
       Inlägg om föreningen, medlemskap, årsmöte och liknande (egen kategori)
@@ -47,7 +47,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publicera", name: "date", widget: "datetime"}
       - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
-    - name: "traffar" # Used in routes, e.g., /admin/collections/blog
+  - name: "traffar" # Used in routes, e.g., /admin/collections/blog
     label: "Turfträffar" # Used in the UI
     description: >
       Inlägg om turfträffar (våra och andras - egen kategori)
@@ -60,7 +60,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publicera", name: "date", widget: "datetime"}
       - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
-    - name: "aventyr" # Used in routes, e.g., /admin/collections/blog
+  - name: "aventyr" # Used in routes, e.g., /admin/collections/blog
     label: "Turfäventyr" # Used in the UI
     description: >
       Inlägg om turfäventyr (våra och andras - egen kategori)
@@ -73,7 +73,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publicera", name: "date", widget: "datetime"}
       - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
-    - name: "pokalen" # Used in routes, e.g., /admin/collections/blog
+  - name: "pokalen" # Used in routes, e.g., /admin/collections/blog
     label: "Vandringspokalen" # Used in the UI
     description: >
       Inlägg om vår vandringspokal (egen kategori)
@@ -86,7 +86,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publicera", name: "date", widget: "datetime"}
       - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
-    - name: "vb-klassikern" # Used in routes, e.g., /admin/collections/blog
+  - name: "vb-klassikern" # Used in routes, e.g., /admin/collections/blog
     label: "Västerbottens Turf-klassiker" # Used in the UI
     description: >
       Inlägg om vår Turf-klassiker (egen kategori)
