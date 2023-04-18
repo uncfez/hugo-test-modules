@@ -8,7 +8,7 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, e.g., /admin/collections/blog
+  - name: post # Used in routes, e.g., /admin/collections/blog
     label: "Inlägg" # Used in the UI
     description: >
       Allmänna inlägg som inte hamnar i någon särskild kategori - använd helst sparsamt!
@@ -21,7 +21,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publicera", name: "date", widget: "datetime"}
       - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
-    - name: "bonanza" # Used in routes, e.g., /admin/collections/blog
+    - name: bonanza # Used in routes, e.g., /admin/collections/blog
     label: "Bonanza" # Used in the UI
     description: >
       Inlägg som handlar om Bonanza :)
@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Publicera", name: "date", widget: "datetime"}
       - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
-  - name: "event" # Used in routes, e.g., /admin/collections/blog
+  - name: event # Used in routes, e.g., /admin/collections/blog
     label: "Event" # Used in the UI
     description: >
       Inlägg som handlar om event :)
