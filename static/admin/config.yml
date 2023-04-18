@@ -6,7 +6,7 @@ backend:
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
-logo_url: https://github.com/uncfez/tvb-mod/blob/master/static/apple-touch-icon.png
+logo_url: https://www.turfvasterbotten.se/wp-content/uploads/2022/08/cropped-favicon-1.png
 
 locale: 'se'
 
