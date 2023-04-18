@@ -100,7 +100,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "post" # Used in routes, e.g., /admin/collections/blog
-    label: "Inlägg" # Used in the UI
+    label: "Övriga inlägg" # Used in the UI
     description: >
       Allmänna inlägg som inte hamnar i någon särskild kategori - använd helst sparsamt!
     folder: "content/post" # The path to the folder where the documents are stored
