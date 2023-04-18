@@ -6,6 +6,10 @@ backend:
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
+logo_url: https://turfvb.netlify.app/images/avatar.png
+
+locale: 'se'
+
 
 collections: # A list of collections the CMS should be able to edit
   - name: "bonanza" # Used in routes, e.g., /admin/collections/blog
