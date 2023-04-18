@@ -8,7 +8,7 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 
 logo_url: https://www.turfvasterbotten.se/wp-content/uploads/2022/08/cropped-favicon-1.png
 
-locale: 'se'
+locale: 'de'
 
 
 collections: # A list of collections the CMS should be able to edit
