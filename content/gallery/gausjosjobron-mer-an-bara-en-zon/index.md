@@ -2,13 +2,10 @@
 title: "Gausjosjöbron - mer än bara en zon!"
 date: "2022-05-17"
 categories: 
-  - "okategoriserade"
+  - "Turfäventyr"
 tags: 
-  - "turfaventyr"
+  - "Turfäventyr"
 ---
-
-\[metaslider id=1946 cssclass=""\]
-
 Nu när sommaren närmar sig med stormsteg och man med lätthet kan gå eller cykla till de flesta zoner utan större hinder kom jag att tänka på en zon som blev mer än bara en vanlig zontagning.
 
 Under sportlovet när jag och mina två barnbarn befann oss uppe i fjällen dök det plötsligt upp en ny zon bara några kilometer bort. Självklart började jag direkt fundera på hur vi skulle kunna ta oss till zonen och om det ens skulle vara möjligt med två barn i åldern 7 och 4,5 år. Zonen Gausjosjöbron ligger efter en vandringsled upp till ett sameviste. Absolut inga problem under den snöfria tiden på året, men när snötäcket ligger tjockt och snön vräker ner är det en större utmaning.
