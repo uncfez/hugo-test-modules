@@ -60,7 +60,7 @@ cloudinary_baseurl = "https://res.cloudinary.com/turfvb/image/upload/"
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Föreningen för turfare i region Västerbotten"
+    subtitle = "Bara en zon till..."
 
     # if you want to use libravatar or gravatar for the header image
     avatarEmail = "code@lednerb.de"
