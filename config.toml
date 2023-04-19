@@ -77,7 +77,7 @@ cloudinary_baseurl = "https://res.cloudinary.com/turfvb/image/upload/"
     stickyNav = false
 
     # show a language chooser in the header
-    showHeaderLanguageChooser = true
+    showHeaderLanguageChooser = false
 
   # Content configuration
     # Enable an optional pinned page to display at the top of the index
@@ -94,7 +94,7 @@ cloudinary_baseurl = "https://res.cloudinary.com/turfvb/image/upload/"
     dateFormat = "2006-01-02"
 
     # display the estimated reading time for an article
-    showReadingTime = true
+    showReadingTime = false
 
     # Minimum word count to display the Table of Contents
     tocMinWordCount = 400
@@ -111,7 +111,7 @@ cloudinary_baseurl = "https://res.cloudinary.com/turfvb/image/upload/"
     amountCategoriesInFooter = 10
 
     # show a language chooser in the footer
-    showFooterLanguageChooser = true
+    showFooterLanguageChooser = false
 
     # social media profile urls for the footer links
     showSocialMedia = false
