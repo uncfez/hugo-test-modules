@@ -1,9 +1,11 @@
 title = "Turf Västerbotten"
-baseURL = "https://turfvb.netlify.app/"
+baseURL = "https://tvb1.netlify.app/"
 
-[module]
-  [[module.imports]]
-    path = "github.com/Lednerb/bilberry-hugo-theme/v3"
+# Option 1 (recommended): adding the theme as a Hugo module
+# theme = "github.com/Lednerb/bilberry-hugo-theme/v3"
+
+# Option 2: cloning/copying the theme files
+theme = "bilberry-hugo-theme"
 
 # Generate the robots.txt file for SEO
 enableRobotsTXT = true
@@ -29,7 +31,7 @@ cloudinary_baseurl = "https://res.cloudinary.com/turfvb/image/upload/"
   # Files are imported in the order they appear here, after
   # theme.css and theme.js, respectively.
   css_modules = []
-  js_modules = ["js/customjs.js"]
+  js_modules = []
 
   # Description and meta data for the search engines
   author = "Turf Västerbotten"
@@ -77,7 +79,7 @@ cloudinary_baseurl = "https://res.cloudinary.com/turfvb/image/upload/"
     stickyNav = false
 
     # show a language chooser in the header
-    showHeaderLanguageChooser = false
+    showHeaderLanguageChooser = true
 
   # Content configuration
     # Enable an optional pinned page to display at the top of the index
@@ -94,7 +96,7 @@ cloudinary_baseurl = "https://res.cloudinary.com/turfvb/image/upload/"
     dateFormat = "2006-01-02"
 
     # display the estimated reading time for an article
-    showReadingTime = false
+    showReadingTime = true
 
     # Minimum word count to display the Table of Contents
     tocMinWordCount = 400
@@ -111,7 +113,7 @@ cloudinary_baseurl = "https://res.cloudinary.com/turfvb/image/upload/"
     amountCategoriesInFooter = 10
 
     # show a language chooser in the footer
-    showFooterLanguageChooser = false
+    showFooterLanguageChooser = true
 
     # social media profile urls for the footer links
     showSocialMedia = false
