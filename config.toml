@@ -169,7 +169,7 @@ cloudinary_baseurl = "https://res.cloudinary.com/turfvb/image/upload/"
 [Languages]
   [Languages.sv]
     weight = 1
-  [Languages.en]
+#  [Languages.en]
     weight = 2
     title = "Turf Västerbotten"
     subtitle = "The association for turfers in the Västerbotten region"
