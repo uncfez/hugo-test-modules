@@ -11,7 +11,7 @@ theme = "github.com/Lednerb/bilberry-hugo-theme/v3"
 enableRobotsTXT = true
 
 # Change to one of your content languages defined at the end.
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "sv"
 
 # Enable / Disable Google Analytics statistics for your site
 googleAnalytics = ""
@@ -164,12 +164,12 @@ disqusShortname = ""
 # customize your available languages for your multi-lingual site
 # or delete one of the [Languages.xx] blocks to use the theme with only one supported language
 [Languages]
-  [Languages.en]
+  [Languages.sv]
     weight = 1
-  [Languages.de]
-    weight = 2
-    title = "Mein cooler neuer Blog"
-    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
+#  [Languages.de]
+#    weight = 2
+#    title = "Mein cooler neuer Blog"
+#    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
 
 # don't change anything below
 [taxonomies]
