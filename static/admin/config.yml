@@ -25,7 +25,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Kategori(-er)", name: "categories", widget: "list"}
       - {label: "Rubrik", name: "title", widget: "string"}
       - {label: "Publicera", name: "date", widget: "datetime"}
-      - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
+      - {label: "Utvald bild", name: "image", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
   - name: "event" # Used in routes, e.g., /admin/collections/blog
     label: "Event" # Used in the UI
