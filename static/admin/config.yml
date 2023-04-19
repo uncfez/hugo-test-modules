@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Författare", name: "author", widget: "string"}
-      - {label: "Kategori(-er)", name: "categories", widget: "string"}
+      - {label: "Kategori(-er)", name: "categories", widget: "list"}
       - {label: "Rubrik", name: "title", widget: "string"}
       - {label: "Publicera", name: "date", widget: "datetime"}
       - {label: "Utvald bild", name: "thumbnail", widget: "image", required: false}
