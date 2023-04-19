@@ -168,6 +168,11 @@ cloudinary_baseurl = "https://res.cloudinary.com/turfvb/image/upload/"
 # or delete one of the [Languages.xx] blocks to use the theme with only one supported language
 [Languages]
   [Languages.sv]
+    weight = 1
+  [Languages.en]
+    weight = 2
+    title = "Turf Västerbotten"
+    subtitle = "The association for turfers in the Västerbotten region"
 
 # don't change anything below
 [taxonomies]
